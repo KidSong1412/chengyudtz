@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SenceGameSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="17d5a4e75a9" ></w:Config>
+	<e:Image left="-1" right="1" top="0" bottom="0" source="GameBG3_jpg"/>
+	<e:Button id="btn_back" label="" x="22" y="12" anchorOffsetY="0" height="59" anchorOffsetX="0" width="78">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="BackBtn1_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image width="580" height="386" y="102" source="WordFrame_png" horizontalCenter="0" anchorOffsetY="0"/>
+	<e:Image id="img_question" width="398" height="173" y="159" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0"/>
+	<e:Group id="group_words" width="540" height="417" y="616" horizontalCenter="0">
+		<ns1:Word width="80" height="80" x="107" y="90"/>
+		<ns1:Word width="80" height="80" x="167" y="150"/>
+		<ns1:Word width="80" height="80" x="177" y="160"/>
+		<ns1:Word width="80" height="80" x="187" y="170"/>
+		<ns1:Word width="80" height="80" x="197" y="180"/>
+		<ns1:Word width="80" height="80" x="207" y="190"/>
+		<ns1:Word width="80" height="80" x="217" y="200"/>
+		<ns1:Word width="80" height="80" x="227" y="210"/>
+		<ns1:Word width="80" height="80" x="237" y="220"/>
+		<ns1:Word width="80" height="80" x="247" y="230"/>
+		<ns1:Word width="80" height="80" x="257" y="240"/>
+		<ns1:Word width="80" height="80" x="267" y="250"/>
+		<ns1:Word width="80" height="80" x="277" y="260"/>
+		<ns1:Word width="80" height="80" x="287" y="270"/>
+		<ns1:Word width="80" height="80" x="297" y="280"/>
+		<ns1:Word width="80" height="80" x="307" y="290"/>
+		<ns1:Word width="80" height="80" x="317" y="300"/>
+		<ns1:Word width="80" height="80" x="337" y="320"/>
+		<ns1:Word width="80" height="80" x="347" y="330"/>
+		<ns1:Word width="80" height="80" x="357" y="340"/>
+		<e:layout>
+			<e:TileLayout horizontalGap="30" verticalGap="30" horizontalAlign="center"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="group_answer" width="371" height="95" x="134.5" y="383">
+		<ns1:AnswerWord width="70" height="70" x="18" y="13"/>
+		<ns1:AnswerWord width="70" height="70" x="104" y="13"/>
+		<ns1:AnswerWord width="70" height="70" x="190" y="13"/>
+		<ns1:AnswerWord width="70" height="70" x="276" y="13"/>
+	</e:Group>
+	<e:Group id="group_win" left="0" right="0" top="0" bottom="0" visible="false">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.6"/>
+		<e:Image width="640" height="474" x="0" y="610" source="Result_png"/>
+		<e:Button id="btn_next" label="" x="424" y="966">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="ResultBtn_png" source.down="ResultBtn1_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="lb_explain" text="成语解释" x="105.76" y="722.17" textColor="0x0a0000" width="480" height="71"/>
+		<e:Label id="lb_from" text="成语出处" x="105" y="832.94" textColor="0x050000" width="480" height="132.12"/>
+	</e:Group>
+</e:Skin>

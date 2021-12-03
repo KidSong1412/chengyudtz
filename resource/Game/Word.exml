@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WordSkin" width="80" height="80" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="17d5a742bf7" ></w:Config>
+	<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xffffff" strokeColor="0x2ce5f7" strokeWeight="4" ellipseWidth="20" ellipseHeight="20"/>
+	<e:Label id="lb_text" text="字" textColor="0x070707" size="60" verticalCenter="0" horizontalCenter="0" bold="true" fontFamily="FangSong"/>
+</e:Skin>
